@@ -1,0 +1,26 @@
+{
+  "name": "graphql-response-parser",
+  "version": "0.0.1",
+  "description": "GraphQL parser response",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/tslint -c tslint.json 'src/**/*.ts'",
+    "clean": "rm -rf ./dist",
+    "build": "npm run lint && npm run clean && node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahbubzulkarnain/graphql-response-parser.git"
+  },
+  "keywords": [],
+  "author": "Mahbub Zulkarnain <mahbub.zulkarnain@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahbubzulkarnain/graphql-response-parser/issues"
+  },
+  "homepage": "https://github.com/mahbubzulkarnain/graphql-response-parser#readme",
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}

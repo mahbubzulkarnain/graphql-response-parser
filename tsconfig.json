@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "es7",
+      "dom"
+    ],
+    "downlevelIteration": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true
+  },
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "./dist/docs",
+    "theme": "default"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "__tests__",
+    "node_modules"
+  ]
+}
