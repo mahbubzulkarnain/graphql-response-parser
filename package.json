@@ -1,6 +1,6 @@
 {
   "name": "graphql-response-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "GraphQL parser response",
   "main": "dist/index.js",
   "files": [
